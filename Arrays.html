@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+  
+        /*---first way to declare an array
+        let x=["red",101,true,"abc@gmail.com"]
+        console.log(x)
+         console.log(x[4]) //undefined
+         console.log(x[2])
+         -----*/
+
+         /*----second way to declare an array
+         let x=[]
+         console.log(x)
+         x[0]="red"
+         x[2]=true
+         console.log(x)
+
+         x[2]=false
+         console.log(x)
+         x[1]=101
+         console.log(x)
+         -------*/
+
+         /*----third way to declare an array
+         let x=new Array("red",true,101,false,"raj")
+         console.log(x)
+         -----*/
+
+
+         let x=["red","blue","yellow","orange","blue","pink"]
+        console.log(x)
+
+        /*----push(),pop(),unshift(),shift()
+        x.push("pink") //used to add from the last of array
+        console.log(x)
+
+        console.log(x.pop())  //used to remove from the last of array
+        console.log(x)
+
+        x.unshift("yellow") //add from first of an array
+        console.log(x)
+        
+        x.unshift("violet")
+        console.log(x)
+
+        console.log(x.shift()) //remove from first of an array
+        console.log(x)
+        -----*/
+
+        /*----indexOf(),lastIndexOf(),reverse(),toString(),join()
+        console.log(x.indexOf('red'))
+        console.log(x.indexOf('blue'))
+        console.log(x.lastIndexOf('blue'))
+        
+        console.log(x.reverse())
+        console.log(x.toString())
+        console.log(x.join( ' and '))
+        ------*/
+
+        /*----slice() and splice()
+        console.log(x.slice(0,3))
+        console.log(x.slice(0))
+        console.log(x)
+
+        console.log(x.splice(2,2))
+        console.log(x)
+        
+        x.splice(2,2,'purple')
+        console.log(x)
+        -------*/
+
+        /*-----for of loop
+        let colors=["red","blue","yellow","orange","blue","pink"]
+        for(let x1 of colors)
+        {
+            console.log(x1)
+        }
+        -------*/
+
+        /*----keys()
+        let colors=["red","blue","yellow","orange","blue","pink"]
+        let y=colors.keys()
+        for(let x1 of y)
+        {          
+            console.log(x1)
+        }
+        -------*/
+
+        /*------values()
+        let colors=["red","blue","yellow","orange","blue","pink"]
+        let y=colors.values()
+        for(let x1 of y)
+        {          
+            console.log(x1)
+        }
+        --------*/
+
+        /*----entries()
+        let colors=["red","blue","yellow","orange","blue","pink"]
+        let y=colors.entries()
+        for(let x1 of y)
+        {          
+            console.log(x1)
+        }
+        ------*/
+
+        /*-----filter()
+        let ages=[12,45,14,1,18,21]
+        let y=console.log(ages.filter(adult))
+        function adult(ages)
+        {
+            return ages>18
+        }
+        -----*/
+
+        /*---fill()
+        let colors=["red","yellow","green","pink"]
+        console.log(colors)
+        colors.fill("purple")
+        console.log(colors)
+        colors.fill('brown',1,3)
+        console.log(colors)
+        ------*/
+
+        /*-----map()
+        let y=[1,4,9,16,25]
+        let z=y.map(Math.sqrt)
+        console.log(z)
+
+        let x1=[1,2,3,4,5]
+        let x2=x1.map(element=>element*10)
+        console.log(x2)
+
+        let y1=[11,2,3,4]
+        let y2=y1.map(ages)
+        console.log(y2)
+        function ages(n)
+        {
+            return n>2
+        }
+        -----*/
+
+        /*----flat()
+        let x1=[1,2,[3,4,[5,6,[7,8]]]]
+        console.log(x1.flat( 4 ))
+        ------*/
+
+        /*----some() and every()
+        let x1=[2,2,3,1]
+        let y1=x1.some(num=>num>2)
+        console.log(y1)
+
+        let y2=x1.every(element=>element>0)
+        console.log(y2)
+        -----*/
+
+        /*----find() and findIndex()
+        let x1=[1,2,3,4,5,8]
+        console.log(x1.find(num=>num>2))
+
+        console.log(x1.findIndex(num=>num>2))
+        ------*/
+
+        /*----sort()
+        let x1=[5,1,2,9,2]
+        console.log(x1.sort())
+
+        let x2=["red","yellow","blue","orange"]
+        console.log(x2.sort())
+        -----*/
+
+       
+    
+
+        
+
+    </script>
+</body>
+</html>
